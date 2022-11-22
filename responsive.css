@@ -24,3 +24,18 @@
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media (max-width:480px){
+    .cardbox{
+        grid-template-columns: 1fr;
+    }
+    
+    .status.inprogress{
+        white-space: nowrap;
+    }
+    .details .recentOrder{
+        overflow-x: scroll;
+    }
+    .btn{
+        white-space: nowrap;
+    }
+}
